@@ -4,8 +4,17 @@
 # By: correodefinitivo97@gmail.com
 
 import sys
+import random
 
-data = [1.0, 3.14, 6.2, 0.1, 5.3]
+n = 100
+
+data = []
+
+for x in range(100):
+    random_number = random.random
+    data.append(random_number)
+
+print(data)
 
 maximum = -sys.float_info.max
 for x in data:
